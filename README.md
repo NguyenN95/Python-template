@@ -126,7 +126,7 @@ Download [python 3.x or greater][Python-url]
 3. Activate virtual environment
    * Linux 
       ```sh
-      source /your_virtual_enviroment_name/Scripts/activate
+      source ./your_virtual_enviroment_name/Scripts/activate
       ```
    * Windows 
       ```powershell
