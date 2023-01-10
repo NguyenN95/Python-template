@@ -87,7 +87,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Svelte][Svelte.dev]][Svelte-url]
+* [![Python][Python]][Python-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,15 +104,9 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
-Update your npm and nodejs to LTS version or above if you have your nodejs installed.
-```sh
-npm install npm@latest -g
-```
+Download [python 3.x or greater][Python-url]
 
 ### Installation
 
@@ -120,14 +114,33 @@ npm install npm@latest -g
    ```sh
    git clone https://github.com/github_username/repo_name.git
    ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-3. Run project development mode
-   ```sh
-   npm run watch
-   ```
+2. Create virtual environment
+   * Linux 
+      ```sh
+      python3 -m venv 'your_virtual_enviroment_name'
+      ```
+   * Windows 
+      ```powershell
+      python -m venv 'your_virtual_enviroment_name'
+      ```
+3. Activate virtual environment
+   * Linux 
+      ```sh
+      source /your_virtual_enviroment_name/Scripts/activate
+      ```
+   * Windows 
+      ```powershell
+      .\your_virtual_enviroment_name\Scripts\activate.ps1
+      ```
+4. Install libraries
+   * Linux 
+      ```sh
+      pip3 install -r requirements.txt
+      ```
+   * Windows 
+      ```powershell
+      pip install -r requirements.txt
+      ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -256,5 +269,5 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 [product-screenshot]: images/screenshot.png
 
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
+[Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
+[Python-url]: https://www.python.org/downloads/
