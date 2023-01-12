@@ -111,12 +111,12 @@ Download [python 3.x or greater][Python-url]
 ### Installation
 
 1. Clone the repo
-   ```sh
+   ```bash
    git clone https://github.com/github_username/repo_name.git
    ```
 2. Create virtual environment
    * Linux 
-      ```sh
+      ```bash
       python3 -m venv 'your_virtual_enviroment_name'
       ```
    * Windows 
@@ -125,7 +125,7 @@ Download [python 3.x or greater][Python-url]
       ```
 3. Activate virtual environment
    * Linux 
-      ```sh
+      ```bash
       source ./your_virtual_enviroment_name/Scripts/activate
       ```
    * Windows 
@@ -134,7 +134,7 @@ Download [python 3.x or greater][Python-url]
       ```
 4. Install libraries
    * Linux 
-      ```sh
+      ```bash
       pip3 install -r requirements.txt
       ```
    * Windows 
@@ -225,7 +225,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Nguyen - [@Nguyen Linkedin](https://www.linkedin.com/in/binhnguyennguyen/)
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
