@@ -2,26 +2,19 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-<!-- [![Contributors][contributors-shield]][contributors-url]
+[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url] -->
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/NguyenN95/Python-template">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -30,14 +23,14 @@
   <p align="center">
     Project Description
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/NguyenN95/Python-template#readme"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/NguyenN95/Python-template">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/NguyenN95/Python-template/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/NguyenN95/Python-template/issues">Request Feature</a>
   </p>
 </div>
 
@@ -51,7 +44,6 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
-        <!-- <li><a href="#dependencies">Dependencies</a></li> -->
       </ul>
     </li>
     <li>
@@ -79,7 +71,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+<!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `NguyenN95`, `Python-template`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description` -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,44 +85,38 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 
 
-<!-- ### Dependencies
-
-* Your Dependencies here
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
+You will need these tools and guideline to setup and run locally
+
 ### Prerequisites
 
-Download [python 3.x or greater][Python-url]
+Download [python 3.10 or greater][Python-url]
 
 ### Installation
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/NguyenN95/Python-template.git
    ```
 2. Create virtual environment
    * Linux 
       ```bash
-      python3 -m venv 'your_virtual_enviroment_name'
+      python3 -m venv env
       ```
    * Windows 
       ```powershell
-      python -m venv 'your_virtual_enviroment_name'
+      python -m venv env
       ```
 3. Activate virtual environment
    * Linux 
       ```bash
-      source ./your_virtual_enviroment_name/Scripts/activate
+      source ./env/Scripts/activate
       ```
    * Windows 
       ```powershell
-      .\your_virtual_enviroment_name\Scripts\activate.ps1
+      .\env\Scripts\activate.ps1
       ```
 4. Install libraries
    * Linux 
@@ -149,9 +135,16 @@ Download [python 3.x or greater][Python-url]
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+1. Without Docker
+```bash
+python your_python_file.py
+```
+2. Docker 
+```bash
+docker-compose up -d
+``` 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more information about `python` and `docker-compose` commands, please refer to the [python docs](https://docs.python.org/3/) and [docker-compose](https://docs.docker.com/compose/gettingstarted/#step-8-experiment-with-some-other-commands)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,10 +153,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- HELP -->
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+> No issue so far
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,7 +167,7 @@ command to run if program contains helper info
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/NguyenN95/Python-template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,9 +215,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Nguyen - [@Nguyen Linkedin](https://www.linkedin.com/in/binhnguyennguyen/)
+Nguyen - nguyennguyen7595@gmail.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/NguyenN95/Python-template](https://github.com/NguyenN95/Python-template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -237,35 +227,32 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 ## Acknowledgments
 
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+* [Markdown cheat sheets](https://www.markdownguide.org/basic-syntax/#reference-style-links)
+* [Markdown badges cheat sheets](https://github.com/Ileriayo/markdown-badges)
+* [Make your own custom badges](https://javascript.plainenglish.io/how-to-make-custom-language-badges-for-your-profile-using-shields-io-d2aeaf016b6b)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/NguyenN95/Python-template.svg?style=for-the-badge
+[contributors-url]: https://github.com/NguyenN95/Python-template/graphs/contributors
 
-<!-- How to make badages Reference -->
-<!-- https://github.com/Ileriayo/markdown-badges -->
-<!-- https://javascript.plainenglish.io/how-to-make-custom-language-badges-for-your-profile-using-shields-io-d2aeaf016b6b -->
+[forks-shield]: https://img.shields.io/github/forks/NguyenN95/Python-template.svg?style=for-the-badge
+[forks-url]: https://github.com/NguyenN95/Python-template/network/members
 
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
+[stars-shield]: https://img.shields.io/github/stars/NguyenN95/Python-template.svg?style=for-the-badge
+[stars-url]: https://github.com/NguyenN95/Python-template/stargazers
 
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
+[issues-shield]: https://img.shields.io/github/issues/NguyenN95/Python-template.svg?style=for-the-badge
+[issues-url]: https://github.com/NguyenN95/Python-template/issues
 
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/NguyenN95/Python-template.svg?style=for-the-badge
+[license-url]: https://github.com/NguyenN95/Python-template/blob/master/LICENSE
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/nguyenn95
 
 [product-screenshot]: images/screenshot.png
 
